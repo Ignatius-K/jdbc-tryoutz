@@ -1,4 +1,4 @@
-package com.tutorial.entities;
+package com.tutorial.db.entities;
 
 import java.util.Map;
 
