@@ -37,4 +37,8 @@ build/
 ### Mac OS ###
 .DS_Store
 
+# logs
 logs
+
+# conf
+data-source.conf
