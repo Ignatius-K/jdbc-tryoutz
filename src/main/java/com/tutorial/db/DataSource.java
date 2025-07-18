@@ -14,6 +14,10 @@ public class DataSource {
         dataSource = new HikariDataSource(config);
     }
 
+    public static HikariDataSource getDataSource() {
+        return dataSource;
+    }
+
     public static String info() {
         return String.format(
                 "Total connections: %s\tActive connections: %s\tIdle connections: %s\n",
